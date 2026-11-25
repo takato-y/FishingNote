@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  アプリアイコンの前景。白い魚の胴に、青いチェックの印を入れる（道具の確認と釣果の記録を表す）。
+  端末によって外形が丸や角丸に切り取られるため、絵は中央の直径 66dp の円の中に収める。
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 尾びれ -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M38,54 L25,42.5 Q28,54 25,65.5 Z" />
+    <!-- 胴 -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M34,54 C42,37 66,36 80,54 C66,72 42,71 34,54 Z" />
+    <!-- 目 -->
+    <path
+        android:fillColor="#FF0B63E5"
+        android:pathData="M70.5,50.5 m-2.8,0 a2.8,2.8 0 1,0 5.6,0 a2.8,2.8 0 1,0 -5.6,0" />
+    <!-- チェックの印 -->
+    <path
+        android:strokeColor="#FF0B63E5"
+        android:strokeWidth="4.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M45,54.5 L51,60.5 L61.5,48" />
+</vector>

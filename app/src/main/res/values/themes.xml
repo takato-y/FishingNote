@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 画面の見た目は Compose 側（ui/theme）で決める。ここは起動直後の窓の設定だけ -->
+    <style name="Theme.FishingNote" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>

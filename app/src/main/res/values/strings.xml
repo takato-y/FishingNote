@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">釣り道具ノート</string>
+    <!-- アイコンの下に出す名前。ホーム画面で途中で切れないよう短くする -->
+    <string name="launcher_name">釣りノート</string>
+</resources>
